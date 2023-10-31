@@ -1,10 +1,9 @@
 site:
-  title: Antora Docs
-  start_page: rhods-fd-workshop::index.adoc
+  title: Fraud Detection Workshop
+  start_page: fraud-detection-workshop::index.adoc
 content:
   sources:
-    - url: https://github.com/cfchase/fraud-detection-notebooks.git
-      branches: [include-docs]
+    - url: ./../
       start_path: workshop/docs
 asciidoc:
   attributes:
